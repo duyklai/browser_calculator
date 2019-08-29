@@ -9,37 +9,82 @@ header
 header h1
 {
     font-size: 40px;
-    color: black;
+    color: white;
 }
 
 body
 {
-    background: #ffaec8;
+    background: grey;
     position: relative;
     text-align: center;
     top: 100px;
 }
 
-#buttons_container
+#calculator
 {
-    display: grid;
-    width: 20vw;
-    height: 30vw;
-    border: 10px solid black;
+    background: black;
+    border: 10px solid white;
+    width: 300px;
+    height: auto;
     margin: auto auto;
+}
+
+#display_container
+{
+    background: white;
+    height: 65px;
+    margin: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: right; 
+    justify-content: space-around;
+}
+
+#history_display
+{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#main_display
+{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 button
 {
-    font-size: 15px;
-    display: inline;
-    color: black;
-    padding: 5px 15px;
-    margin-bottom: 15px;
+	display: inline-block;
+    border: none;
+    color: white;
+	height: 50px;
+	width: 72px;
+    font-size: 20px;
 }
 
-button:hover
+#buttons_container
 {
-    background-color: #ff94b6;
-    color: black;
+    margin-bottom: 5px;
+}
+
+.ButtonFnc, .ButtonOp
+{
+    background-color: #346bd1;
+}
+
+.ButtonNum, .ButtonFnc#dot, .ButtonFnc#del
+{
+    background-color: black;
+}
+
+.ButtonFnc:hover, .ButtonOp:hover
+{
+    background-color: #3976e6;
+}
+
+.ButtonNum:hover, .ButtonFnc#dot:hover , .ButtonFnc#del:hover
+{
+    background-color: #1a1a1a;
 }

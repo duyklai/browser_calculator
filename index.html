@@ -1,47 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>SketchPad</title>
+    <title>Browser Calculator</title>
     <link rel="stylesheet" type="text/css" href="resources\style.css">
 </head>
 
 <body>
     <header>
-      <h1>Welcome to my Calculator</h1>
+      <h1>Browser Calculator</h1>
     </header>
 
     <div id="calculator">
-        <div id="main_display">0</div>
+        <div id="display_container">
+            <div id="history_display"></div>
+            <div id="main_display">0</div>
+        </div>
         <div id="buttons_container">
             <div id="row">
-                <button class= "ButtonOp" id="clear">AC</button>
-                <button class= "ButtonOp" id="pm">&#177</button>
-                <button class= "ButtonOp" id="percent">%</button>
-                <button class= "ButtonOp" id="divide">&#247</button>
+                <button class= "ButtonFnc" id="clear">AC</button><!--
+                --><button class= "ButtonFnc" id="pm">&#177;</button><!--
+                --><button class= "ButtonFnc" id="percent">%</button><!--
+                --><button class= "ButtonOp" id="divide">&#247;</button>
             </div>
             <div id="row">
-                <button class= "ButtonNum" id="key7">7</button>
-                <button class= "ButtonNum" id="key8">8</button>
-                <button class= "ButtonNum" id="key9">9</button>
-                <button class= "ButtonOp" id="multiply">x</button>
+                <button class= "ButtonNum" id="key7">7</button><!--
+                --><button class= "ButtonNum" id="key8">8</button><!--
+                --><button class= "ButtonNum" id="key9">9</button><!--
+                --><button class= "ButtonOp" id="multiply">&times;</button>
             </div>
             <div id="row">
-                <button class= "ButtonNum" id="key4">4</button>
-                <button class= "ButtonNum" id="key5">5</button>
-                <button class= "ButtonNum" id="key6">6</button>
-                <button class= "ButtonOp" id="subtract">-</button>
+                <button class= "ButtonNum" id="key4">4</button><!--
+                --><button class= "ButtonNum" id="key5">5</button><!--
+                --><button class= "ButtonNum" id="key6">6</button><!--
+                --><button class= "ButtonOp" id="subtract">&#8722;</button>
             </div>
             <div id="row">
-                <button class= "ButtonNum" id="key1">1</button>
-                <button class= "ButtonNum" id="key2">2</button>
-                <button class= "ButtonNum" id="key3">3</button>
-                <button class= "ButtonOp" id="add">+</button>
+                <button class= "ButtonNum" id="key1">1</button><!--
+                --><button class= "ButtonNum" id="key2">2</button><!--
+                --><button class= "ButtonNum" id="key3">3</button><!--
+                --><button class= "ButtonOp" id="add">&#43;</button>
             </div>
             <div id="row">
-                <button class= "ButtonNum" id="key0">0</button>
-                <button class= "ButtonOp" id="dot">.</button>
-                <button class= "ButtonOp" id="del">DEL</button>
-                <button class= "ButtonOp" id="equal">=</button>
+                <button class= "ButtonNum" id="key0">0</button><!--
+                --><button class= "ButtonFnc" id="dot">.</button><!--
+                --><button class= "ButtonFnc" id="del">DEL</button><!--
+                --><button class= "ButtonFnc" id="equal">&#61;</button>
             </div>
         </div>
     </div>
