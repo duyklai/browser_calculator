@@ -10,5 +10,7 @@ Features include:
 - Showing equation calculated (above) and results (below)
 - Can go from one result to next equation (use new operator)
 
-Currently at this time does not include keyboard support. Must click on "equal button" everytime to get results. Currently only support 2 operand and 1 operator at a time. 
+Currently at this time does not include keyboard support. 
+Must click on "equal button" everytime to get results. 
+Currently only support 2 operand and 1 operator at a time. 
 </pre>
